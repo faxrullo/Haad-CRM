@@ -1,10 +1,10 @@
 ﻿namespace Haad_CRM.Models;
 
 using System;
+using Haad_CRM.Models.Common;
 
-public class Payment
+public class Payment:Auditable
 {
-    public int Id { get; set; }
     public int StudentId { get; set; }
     public decimal Amount { get; set; }
     public DateTime PaymentDate { get; set; }

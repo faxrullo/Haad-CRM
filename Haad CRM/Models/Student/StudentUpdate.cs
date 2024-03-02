@@ -1,14 +1,8 @@
-﻿using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
 namespace Haad_CRM.Models.Student;
 
 using System;
-using Haad_CRM.Models.Common;
 
-public class Student:Auditable
+public class StudentUpdate
 {
     public string FirstName { get; set; }
     public string LastName { get; set; }

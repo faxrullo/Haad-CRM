@@ -1,0 +1,10 @@
+namespace Haad_CRM.Models.Student;
+public interface IStudentService
+{
+    Task<StudentViewModel> CreateAsync(StudentCreation student);
+    Task<StudentViewModel> UpdateAsync(StudentUpdate student);
+    Task<bool> DeleteAsync(long id);
+    Task<StudentViewModel> GetByIdAsync(long id);
+    Task<List<StudentViewModel>> GetAllAsync();
+
+}

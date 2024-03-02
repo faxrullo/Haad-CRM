@@ -1,10 +1,10 @@
 ﻿namespace Haad_CRM.Models;
 
 using System;
+using Haad_CRM.Models.Common;
 
-public class Attendance
+public class Attendance:Auditable
 {
-    public int Id { get; set; }
     public int StudentId { get; set; }
     public int GroupId { get; set; }
     public DateTime AttendanceDate { get; set; }

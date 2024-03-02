@@ -1,9 +1,8 @@
-﻿namespace Haad_CRM.Models.Teacher;
+namespace Haad_CRM.Models.Teacher;
 
 using System;
-using Haad_CRM.Models.Common;
 
-public class Teacher:Auditable
+public class TeacherUpdate
 {
     public string FirstName { get; set; }
     public string LastName { get; set; }

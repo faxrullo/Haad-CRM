@@ -1,8 +1,9 @@
-﻿namespace Haad_CRM.Models;
+﻿using Haad_CRM.Models.Common;
 
-public class Homework
+namespace Haad_CRM.Models;
+
+public class Homework:Auditable
 {
-    public int Id { get; set; }
     public int GroupId { get; set; }
     public string HomeworkName { get; set; }
     public string HomeworkType { get; set; }

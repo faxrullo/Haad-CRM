@@ -1,6 +1,8 @@
-﻿namespace Haad_CRM.Models;
+﻿using Haad_CRM.Models.Common;
 
-public class StudentGroup
+namespace Haad_CRM.Models;
+
+public class StudentGroup:Auditable
 {
     public int StudentId { get; set; }
     public int GroupId { get; set; }

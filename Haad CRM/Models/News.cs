@@ -1,10 +1,10 @@
 ﻿namespace Haad_CRM.Models;
 
 using System;
+using Haad_CRM.Models.Common;
 
-public class News
+public class News:Auditable
 {
-    public int Id { get; set; }
     public int StudentId { get; set; }
     public string Title { get; set; }
     public string Content { get; set; }
