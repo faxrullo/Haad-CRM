@@ -1,10 +1,7 @@
 ﻿namespace Haad_CRM.Models.Teacher;
 
-using System;
-
-public class TeacherView
+public class TeacherUpdate
 {
-    public int ID { get; set; }
     public string FirstName { get; set; }
     public string LastName { get; set; }
     public string Phone { get; set; }

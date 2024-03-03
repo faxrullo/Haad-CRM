@@ -1,5 +1,6 @@
 ﻿namespace Haad_CRM.Models.Student;
 
+using Haad_CRM.Models.Course;
 using System;
 
 public class StudentViewModel
@@ -11,9 +12,7 @@ public class StudentViewModel
     public string ParentPhoneNumber { get; set; }
     public string Email { get; set; }
     public int CoinId { get; set; }
-    public int CourseId { get; set; }
+    public CourseViewModel Course { get; set; }
     public string Phone { get; set; }
     public string Address { get; set; }
-    public DateTime Created_at { get; set; }
-    public DateTime Updated_at { get; set; }
 }

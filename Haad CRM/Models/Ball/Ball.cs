@@ -1,12 +1,12 @@
-﻿namespace Haad_CRM.Models;
+﻿namespace Haad_CRM.Models.Ball;
 
+using Haad_CRM.Models.Common;
 using System;
 
-public class Ball
+public class Ball : Auditable
 {
-    public int ID { get; set; }
     public int CoinMark { get; set; }
     public string Comment { get; set; }
-    public DateTime Created_at { get; set; }
     public int TotalCoin { get; set; }
 }
+

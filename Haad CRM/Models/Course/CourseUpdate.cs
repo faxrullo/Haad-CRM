@@ -1,9 +1,8 @@
 ﻿namespace Haad_CRM.Models.Course;
 
-using Haad_CRM.Models.Common;
 using System;
 
-public class Course:Auditable
+public class CourseUpdate
 {
     public string Name { get; set; }
     public string Description { get; set; }

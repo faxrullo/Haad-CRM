@@ -1,9 +1,8 @@
 ﻿namespace Haad_CRM.Models.Lesson;
 
-using Haad_CRM.Models.Common;
 using System;
 
-public class Lesson:Auditable
+public class LessonCreation
 {
     public string Name { get; set; }
     public int GroupId { get; set; }

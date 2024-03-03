@@ -1,8 +1,7 @@
-﻿namespace Haad_CRM.Models;
+﻿namespace Haad_CRM.Models.Homework;
 
-public class Homework
+public class HomeworkUpdate
 {
-    public int Id { get; set; }
     public int GroupId { get; set; }
     public string HomeworkName { get; set; }
     public string HomeworkType { get; set; }

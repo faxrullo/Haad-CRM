@@ -1,4 +1,4 @@
-﻿namespace Haad_CRM.Models;
+﻿namespace Haad_CRM.Models.StudentGroup;
 
 public class StudentGroup
 {
